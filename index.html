@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vampyras</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul>
+          <li><b><a href="index.html">Miau</a></b></li>
+          <li><b><a href="index2.html">Miau</a></b></li>
+        </ul>
+      </nav>
+      <h1 class="katinukas">Katinukas</h1>
+    </header>
+    <main>
+      <section class="piktas">
+        <p>Aš labai baisus ir <strong>piktas</strong> katinukas <span style='font-size:30px'>&#128049;</span></p>
+        <p>Vampyrai katinukai būna:</p>
+          <ul>
+            <li>Mieli</li>
+            <li>Pūkuoti</li>
+            <li>Aštriais dantukais</li>
+        </ul>
+        <!---<img src="images/cat.jpg">--->
+        <video controls width="600" height="600"
+          preload="auto"
+          poster="images/cat.jpg">
+        <source src="videos/cat.mp4" type="video/mp4">
+        </video>
+        <audio controls autoplay hidden>
+        <source src ="audio/cat.mp3" type="audio/mp3">
+        </audio>
+      </section>
+      <aside>
+        <h5>Registracijos forma į katinukų ordiną</h5>
+        <form>
+          <label for="vardas"><b>Vardas:</b></label><br>
+          <input type="text" id="vardas" name="vardas" required><br>
+          <label for="pavarde"><b>Pavardė:</b></label><br>
+          <input type="text" id="pavarde" name="pavarde" required><br>
+
+          <label for="birthday"><b>Gimimo diena:</b></label><br>
+          <input type="date" id="birthday" name="birthday" required><br>
+
+          <label for="email"><b>El.paštas:</b></label><br>
+          <input type="email" id="email" name="email" required><br>
+
+          <label for="phone"><b>Tel.nr:</b></label><br>
+          <input type="tel" id="phone" name="phone" placeholder="+3706XXXXXXX" required><br>
+
+          <p><b>Kokia tavo veislė?</b></p>
+          <input type="radio" id="persas" name="persas">
+          <label for="persas">Persų ilgaplaukis</label><br>
+          <input type="radio" id="britukas" name="britukas">
+          <label for="britukas">Britukas</label><br>      
+          <input type="radio" id="skotas" name="skotas">
+          <label for="skotas">Škotų nulėpausis</label><br><br><br>
+
+          <label for="file">Įdėk savo nuotrauką</label>
+          <input id="file" name="file" type="file">
+
+          <p><b>Kaip nervuoji savo vergą?</b></p>
+          <input type="checkbox" id="1" name="1">
+          <label for="1">Primyžu į batus</label><br>     
+          <input type="checkbox" id="2" name="2">
+          <label for="2">Mėtau daiktus nuo stalo</label><br>     
+          <input type="checkbox" id="3" name="3">
+          <label for="3">Kandžioju kojų pirštus rytais</label><br>
+
+          <p><b>Išsirink mėgstamiausia konservų skonį:</b></p>
+          <select id="maistas" name="maistas">
+            <option value="Lašiša">Lašiša</option>
+            <option value="Vištiena">Vištiena</option>
+            <option value="Tunas">Tunas</option>
+            <option value="Ėriena">Ėriena</option>
+          </select><br>
+
+          <p><b>Išsirink mėgstamiausia spalvą:</b></p>
+          <input type="color" id="favcolor" name="favcolor">
+
+          <p><b>Įrašyk smagų komentarą:</b></p>
+          <textarea name="message" rows="10" cols="30"></textarea><br>
+
+          <button>Įstoti</button>
+        </form>
+      </aside>
+    </main>  
+    <footer class="footer">
+      <p>Miau 2022</p>
+    </footer>
+  </body>
+</html>
+
+
